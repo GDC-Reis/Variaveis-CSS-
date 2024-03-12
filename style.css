@@ -1,0 +1,19 @@
+:root{ 
+    --roxo: #84e;
+    --borda: 4px solid blue;
+    --font-grande: 3rem
+}
+
+h1{
+    /*CRIANDO A PROPRIEDADE CUSTOMIZAVEL -> Deve ser sempre criada no elemento pai, de todos os elementos que irão utilizar essa variavel*/
+    /* --roxo: #84e */
+    font-size: var(--font-grande);
+    color: var(--roxo);
+}
+
+p{
+    --roxo: #222
+    color: var(--roxo);
+    margin-top: var(--font-grande);
+    font-size: calc(var(--font-grande)/2); /*calc(var(...) / 2) -> dividindo o valor da variavel por 2*/
+}
